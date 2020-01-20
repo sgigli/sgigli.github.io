@@ -127,7 +127,7 @@ a.dotted-link:hover {
 
 header::after {
   content: "";
-  background: url('../images/header-backgrnd.png');
+  background: url('../images/header-background.png');
   opacity: 0.6;
   top: 0;
   left: 0;
@@ -138,17 +138,10 @@ header::after {
   height: 330px;
 }
 
-#temp {
-  opacity: 1.0;
-}
-
-#resize {
-  opacity: 1.0;
-}
-
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
+  border: 2px solid white;
 }
 
 .header .profile-image {
