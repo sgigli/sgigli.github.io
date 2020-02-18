@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap 4 Portfolio/Resume Theme for Developers</title>
+  <title>Simon Gigli's SE Portfolio</title>
+  <!-- Bootstrap 4 Portfolio/Resume Theme for Developers -->
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
   <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/health-and-fitness-5/64/fitness08-512.png">
 
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -40,20 +41,20 @@
   <!-- ******HEADER****** -->
   <header class="header">
     <div class="container clearfix">
-      <img id='resize' class="profile-image img-fluid float-left" src="assets/images/simon.png" alt="James Lee" />
+      <img id='resize' class="profile-image img-fluid float-left" src="assets/images/photobooth.png" alt="James Lee" />
       <div class="profile-content float-left">
         <h1 class="name">Simon Gigli</h1>
-        <h2 class="desc">Web App Developer</h2>
+        <h2 class="desc">Software Developer</h2>
         <ul class="social list-inline">
-          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>
-          <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
-          <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>
+          <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/simon-gigli/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/sgigli/" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+          <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li> -->
+          <!-- <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li> -->
         </ul>
       </div>
-      <!--//profile-->
-      <a class="btn btn-cta-primary float-right" href="assets/images/SimonGigliDraftResume.pdf" target="_blank">View Resume</a>
+      <!--//profile btn-cta-primary-->
+      <a class="btn btn-cta-primary float-right" href="assets/images/janResume.pdf" target="_blank">View Resume</a>
     </div>
     <!--//container-->
   </header>
@@ -66,11 +67,14 @@
           <div class="section-inner">
             <h2 class="heading">About Me</h2>
             <div class="content">
-              <p>I am a tennis player and foodie from Washington DC. I enjoy
+              <p>I am a Software Developer with a math and foreign languages background.
+                I am motivated to understand how things work and put them into practice.
+                My collaborative and puzzle-through approach helps me welcome and resolve new challenges. 
+              </p>
+              <!-- I am a tennis player and foodie from Washington DC. I enjoy
                 puzzles, studied math in college, and like figuring out
                 algorithms, models, and functional-development problems. I hope
-                to contribute to a fun and supportive team.
-              </p>
+                to contribute to a fun and supportive team. -->
 
             </div>
             <!--//content-->
@@ -83,13 +87,13 @@
           <div class="section-inner">
             <h2 class="heading">Latest Projects</h2>
             <div class="content">
-
               <div class="item featured text-center">
-                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">Cap-Stone</a></h3>
-                <p class="summary">TBD</p>
+                <h3 class="title"><a href="https://sgigli.github.io/chat-room-client-BT/" target="_blank">Chatter</a></h3>
+                <p></p>
+                <!-- <p class="summary">TBD</p> -->
                 <div class="featured-image has-ribbon">
-                  <a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">
-                    <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                  <a href="https://sgigli.github.io/chat-room-client-BT/" target="_blank">
+                    <img class="img-fluid project-image" src="assets/images/chatroomScreenshot.png" alt="project name" />
                   </a>
                   <div class="ribbon">
                     <div class="text">New</div>
@@ -97,49 +101,58 @@
                 </div>
 
                 <div class="desc text-left">
-                  <p>Cap stone project details</p>
+                  <p>This is an open place to create chatrooms to connect with the people in your life,
+                    whether it's for work or socializing. I wanted to create something my friends and I
+                    could share while integrating a third-party framework, which for this app
+                    was socket.io. This tool allows the server to 'listen' for messages from clients and
+                    send them out to any client 'listening' for the message. In addition to socket.io,
+                    the app uses node.js, express, mongoDB, and bootstrap.</p>
                 </div>
                 <!--//desc-->
-                <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>
+                <!-- <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a> -->
               </div>
               <!--//item-->
               <hr class="divider" />
+
+              <!--//item-->
+
               <div class="item row">
-                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                  <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                <a class="col-md-4 col-12" href="https://sgigli.github.io/run-tracker-client/" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/rUnwind.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">rUnwind</a></h3>
+                  <p class="mb-2">A place to log details of your daily runs, including your routes. See where locals are running to get ideas too!</p>
+                  <p>Built with Node, Ruby on Rails, and SQL</p>
+                  <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out -->
+                      <!-- more</a></p> -->
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+              <div class="item row">
+                <a class="col-md-4 col-12" href="https://sgigli.github.io/tic-tac-toe-client/" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/tic-tac-toe.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">Tic Tac Toe with Computer AI</a></h3>
+                  <p class="mb-2">A homemade version of one of the classic games with a competitive computer AI that will block your moves and try to win.</p>
+                  <p>Built with Node</p>
+                  <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                </div>
+                <!--//desc-->
+              </div>
+              <div class="item row">
+                <a class="col-md-4 col-12" href="https://hippogitamus.github.io/project-3-client/" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/party-on-photo.png" alt="project name" />
                 </a>
                 <div class="desc col-md-8 col-12">
                   <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Party On</a>
                   </h3>
-                  <p class="mb-2">An answer to one of the most pressing questions of our time: where is the party?</p>
-                  <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                </div>
-                <!--//desc-->
-              </div>
-              <!--//item-->
-
-              <div class="item row">
-                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                  <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-12">
-                  <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">Run Tracker</a></h3>
-                  <p class="mb-2">A simple place to log your daily runs!</p>
-                  <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out
-                      more</a></p>
-                </div>
-                <!--//desc-->
-              </div>
-              <!--//item-->
-
-              <div class="item row">
-                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">
-                  <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-12">
-                  <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">Tic Tac Toe</a></h3>
-                  <p class="mb-2">A homemade version of one of the classic games.</p>
-                  <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                  <p class="mb-2">An answer to one of the most pressing questions of our time: where is the party? Users can create and RSVP to events to hang out with their friends.</p>
+                  <p>Built with Node, Express, and MongoDB.</p>
+                  <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
                 </div>
                 <!--//desc-->
               </div>
@@ -217,9 +230,16 @@
             <h2 class="heading">Work Experience</h2>
             <div class="content">
               <div class="item">
-                <h3 class="title">PLACEHOLDER <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
-                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus.
-                  Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                <h3 class="title">Math Tutor <span class="place"><a href="#">Chevy Chase Prep</a></span> <span class="year">(2018)</span></h3>
+                <p>I helped demystify math concepts to local middle and high school students. Through mentorship and patience, students developed confidence in math through exploring their own problem solving processes. </p>
+              </div>
+              <div class="item">
+                <h3 class="title">Tennis Instructor <span class="place"><a href="#">Lafayette Tennis Association</a></span> <span class="year">(2014-2019)</span></h3>
+                <p>During breaks throughout college, I taught tennis to kids and adults as part of the small and tight-knit tennis community at the Lafayette Elementary School tennis courts in Washington DC. Through fun, games, and mentorship, we worked to instill tennis fundamentals among local kids.</p>
+              </div>
+              <div class="item">
+                <h3 class="title">Development Intern <span class="place"><a href="#">UBELONG</a></span> <span class="year">(Summer 2014)</span></h3>
+                <p>Having participated in a UBELONG volunteer program in Cusco, Peru, where I was a teacher's assistant in a local middle school, I returned to intern for the company to assist in their mission for grassroots community development assistance through affordable volunteer opportunities. As an intern, I read, organized and posted volunteer interviews, did research into volunteer programs they were building, and helped maintain social media platforms.</p>
               </div>
               <!-- <div class="item">
                 <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
@@ -248,6 +268,9 @@
         <section class="github section">
           <div class="section-inner">
             <h2 class="heading">My GitHub</h2>
+            <p>More of my GH activity can be found at my
+              <a href="https://git.generalassemb.ly/sgigli" target="_blank">General Assembly Enterprise account</a>.
+            </p>
             <!-- <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. -->
 
               <!-- <div id="github-graph" class="github-graph">
@@ -278,8 +301,8 @@
               <ul class="list-unstyled">
                 <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Boston, US</li>
                 <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">simon.luciano@gigli.net</a></li>
-                <li><i class="fas fa-link"></i><span class="sr-only">GitHub:</span><a href="#">https://github.com/sgigli</a></li>
-                <li><i class="fas fa-link"></i><span class="sr-only">LinkedIn:</span><a href="#">https://www.linkedin.com/in/simon-gigli/</a></li>
+                <!-- <li><i class="fas fa-link"></i><span class="sr-only">GitHub:</span><a href="#">https://github.com/sgigli</a></li> -->
+                <!-- <li><i class="fas fa-link"></i><span class="sr-only">LinkedIn:</span><a href="#">https://www.linkedin.com/in/simon-gigli/</a></li> -->
               </ul>
             </div>
             <!--//content-->
@@ -290,58 +313,94 @@
 
         <aside class="skills aside section">
           <div class="section-inner">
+
             <h2 class="heading">Skills</h2>
             <div class="content">
               <!-- <p class="intro">
                 Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p> -->
-
               <div class="skillset">
+                <p class="skills-font"><span class="">Node.js</span> <span class='dash'>-</span> Express <span class='dash'>-</span> React <span class='dash'>-</span>
+                  Ruby on Rails <span class='dash'>-</span> Python <span class='dash'>-</span> MongoDB <span class='dash'>-</span>
+                   SQL <span class='dash'>-</span> PostgreSQl
+                <span class='dash'>-</span> HTML/CSS <span class='dash'>-</span> Bootstrap</p>
 
-                <div class="item">
-                  <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                <p><span class="skills-font">Algorithms:</span> <span class="underline">Solved 40+ LeetCode problems</span> (easy, medium and hard difficulties)</p>
+                <!-- <p class="">Solved 30+ LeetCode problems (easy, medium and hard difficulties)</p> -->
+
+                <!-- <div class="item">
+                  <h3 class="level-title">Node.js<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."> -->
+                    <!-- <i class="fas fa-info-circle"></i>Expert</span></h3> -->
+                  <!-- <div class="level-bar">
+                    <div class="level-bar-inner" data-level="60%">
+                    </div>
+                  </div> -->
+                  <!--//level-bar-->
+                <!-- </div> -->
+                <!--//item-->
+
+                <!-- <div class="item">
+                  <h3 class="level-title">Express<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."> -->
+                    <!-- Javascript &amp; jQuery -->
+                    <!-- <i
                         class="fas fa-info-circle"></i>Expert</span></h3>
                   <div class="level-bar">
                     <div class="level-bar-inner" data-level="60%">
                     </div>
-                  </div>
+                  </div> -->
                   <!--//level-bar-->
-                </div>
+                <!-- </div> -->
                 <!--//item-->
 
-                <div class="item">
-                  <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
-                        class="fas fa-info-circle"></i>Expert</span></h3>
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="60%">
-                    </div>
-                  </div>
-                  <!--//level-bar-->
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                  <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                <!-- <div class="item"> -->
+                  <!-- <h3 class="level-title">React<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."> -->
+                    <!-- HTML5, CSS3, SASS &amp; LESS -->
+                    <!-- <i
                         class="fas fa-info-circle"></i>Expert</span></h3>
                   <div class="level-bar">
                     <div class="level-bar-inner" data-level="55%">
                     </div>
-                  </div>
+                  </div> -->
                   <!--//level-bar-->
-                </div>
+                <!-- </div> -->
                 <!--//item-->
+                <!-- <div class="item">
+                  <h3 class="level-title">Git<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
+                </div>
 
                 <div class="item">
-                  <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                  <h3 class="level-title">Algorithms<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
+
+                </div>
+                <h6>Solved 30+ LeetCode problems - easy, medium, and hard difficulties</h6>
+
+                <div class="item"> -->
+                  <!-- <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."> -->
+                    <!-- <i
                         class="fas fa-info-circle"></i>Pro</span></h3>
                   <div class="level-bar">
                     <div class="level-bar-inner" data-level="60%">
                     </div>
-                  </div>
+                  </div> -->
                   <!--//level-bar-->
+                <!-- </div> -->
+                <!--//item-->
+                <!-- <div class="item">
+                  <h3 class="level-title">MongoDB<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
+                </div> -->
+                <!--//item-->
+                <!-- <div class="item">
+                  <h3 class="level-title">SQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
+                </div> -->
+                <!--//item-->
+                <!-- <div class="item">
+                  <h3 class="level-title">HTML/CSS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
                 </div>
+                <div class="item">
+                  <h3 class="level-title">Bootstrap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level...">
+                </div> -->
                 <!--//item-->
 
-                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p>
+                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> -->
               </div>
             </div>
             <!--//content-->
@@ -352,17 +411,17 @@
 
         <aside class="testimonials aside section">
           <div class="section-inner">
-            <h2 class="heading">Testimonials</h2>
+            <h2 class="heading">Recommendations</h2>
             <div class="content">
               <div class="item">
                 <blockquote class="quote">
-                  <p><i class="fas fa-quote-left"></i>PLACEHOLDER: Simon is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                  <p><i class="fas fa-quote-left"></i>When our daughter decided to challenge herself in her junior year by taking an advanced level pre-calculus course, she struggled to maintain the stamina and focus needed to keep up with the rigorous work. Simon’s endless patience, enthusiasm, and humor, along with his insistence that she understand each problem before moving on to the next, contributed greatly to her confidence in her own abilities, and to her ultimate success in junior year math.</p>
                 </blockquote>
-                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
+                <p class="source"><span class="name">Mom of MD Independent School Student</span><br /><span class="title">Client of Chevy Chase Prep Tutoring (former employer)</span></p>
               </div>
               <!--//item-->
 
-              <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p>
+              <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> -->
 
             </div>
             <!--//content-->
@@ -404,16 +463,16 @@
                 <!--//item-->
                 <li class="item">
                   <span class="title"><strong>Italian:</strong></span>
-                  <span class="level">Professional Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                  <span class="level">Professional Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
                 </li>
                 <!--//item-->
                 <li class="item">
                   <span class="title"><strong>Spanish:</strong></span>
-                  <span class="level">Conversational Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                  <span class="level">Conversational Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
                 </li>
                 <li class="item">
                   <span class="title"><strong>French:</strong></span>
-                  <span class="level">Conversational Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                  <span class="level">Conversational Proficiency <br class="visible-sm visible-xs" /><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
                 </li>
               </ul>
             </div>
@@ -436,7 +495,7 @@
         <!-- </aside> -->
         <!--//section ALREADY COMMENTED OUT-->
 
-        <aside class="list music aside section">
+        <!-- <aside class="list music aside section">
           <div class="section-inner">
             <h2 class="heading">Favourite coding music</h2>
             <div class="content">
@@ -446,11 +505,11 @@
                 <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
                 <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
               </ul>
-            </div>
+            </div> -->
             <!--//content-->
-          </div>
+          <!-- </div> -->
           <!--//section-inner-->
-        </aside>
+        <!-- </aside> -->
         <!--//section-->
 
         <!-- <aside class="list conferences aside section">
