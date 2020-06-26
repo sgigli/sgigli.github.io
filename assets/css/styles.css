@@ -710,6 +710,6 @@ header::after {
 
 #resize {
   height: 240px;
-  width: 240px;
-  border-radius: 50%;
+  width: 181px;
+  border-radius: 20%;
 }
